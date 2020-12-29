@@ -7,4 +7,5 @@ def home(request):
 
 def view_code(request, code_id):
     code = Code.objects.get(id=code_id)
-    return render(request, 'algorithms/view_code.html', code)
+    code = {"code":}
+    return render(request, 'algorithms/view_code.html', )
